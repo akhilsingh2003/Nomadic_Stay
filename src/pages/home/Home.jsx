@@ -3,7 +3,7 @@ import Featured from "../../components/featured/Featured";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import PropertyList from "../../components/propertyList/PropertyList";
-import FeaturedProperties from "../../components/featuredProperties/FeaturedPropertis";
+import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties";
 import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
 const Home = () => {

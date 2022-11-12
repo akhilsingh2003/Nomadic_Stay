@@ -6,20 +6,17 @@ import {
   faPlane,
   faTaxi,
 } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
+import { DateRange } from "react-date-range";
 import { useState } from "react";
-import {DateRange} from 'react-date-range';
-import 'react-date-range/dist/styles.css'; 
-import 'react-date-range/dist/theme/default.css';
+import "react-date-range/dist/styles.css"; // main css file
+import "react-date-range/dist/theme/default.css"; // theme css file
 import { format } from "date-fns";
 import { useNavigate } from "react-router-dom";
 
-
-
-
 const Header = ({ type }) => {
-    const [destination, setDestination] = useState("");
+  const [destination, setDestination] = useState("");
   const [openDate, setOpenDate] = useState(false);
   const [date, setDate] = useState([
     {
@@ -35,6 +32,8 @@ const Header = ({ type }) => {
     room: 1,
   });
 
+  const navigate = useNavigate();
+
   const handleOption = (name, operation) => {
     setOptions((prev) => {
       return {
@@ -44,17 +43,19 @@ const Header = ({ type }) => {
     });
   };
 
-  const navigate = useNavigate();
-  
   const handleSearch = () => {
     navigate("/hotels", { state: { destination, date, options } });
   };
 
   return (
     <div className="header">
-    <div className="headerContainer">
+      <div
+        className={
+          type === "list" ? "headerContainer listMode" : "headerContainer"
+        }
+      >
         <div className="headerList">
-        <div className="headerListItem active ">
+          <div className="headerListItem active">
             <FontAwesomeIcon icon={faBed} />
             <span>Stays</span>
           </div>
@@ -67,13 +68,15 @@ const Header = ({ type }) => {
             <span>Car rentals</span>
           </div>
           <div className="headerListItem">
+            <FontAwesomeIcon icon={faBed} />
+            <span>Attractions</span>
+          </div>
+          <div className="headerListItem">
             <FontAwesomeIcon icon={faTaxi} />
             <span>Airport taxis</span>
           </div>
-          </div>
-
-
-          {type !== "list" && (
+        </div>
+        {type !== "list" && (
           <>
             <h1 className="headerTitle">
               A lifetime of discounts? It's Genius.
@@ -88,7 +91,7 @@ const Header = ({ type }) => {
                 <FontAwesomeIcon icon={faBed} className="headerIcon" />
                 <input
                   type="text"
-                  placeholder="Location?"
+                  placeholder="Where are you going?"
                   className="headerSearchInput"
                   onChange={(e) => setDestination(e.target.value)}
                 />
@@ -195,12 +198,9 @@ const Header = ({ type }) => {
             </div>
           </>
         )}
-
-        </div>
-        </div>
-
-    
+      </div>
+    </div>
   );
 };
 
-export default Header
+export default Header;
