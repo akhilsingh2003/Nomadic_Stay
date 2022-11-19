@@ -1,1 +1,1 @@
-# Mini Project - Nomadic Stay Hotel  Booking site
+# Mini Project - Nomadic Stay  - A Hotel Booking site
