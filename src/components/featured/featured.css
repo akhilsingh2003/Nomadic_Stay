@@ -1,6 +1,5 @@
 .featured{
-    width: 100%;
-    max-width: 1024px;
+    width: 92%;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -13,11 +12,15 @@
     border-radius: 10px;
     overflow: hidden;
     height: 250px;
+    padding-left: 14px;
     flex:1
   }
+  img.featuredImg {
+    border-radius: 8px;
+}
 
   .featuredImg{
-    width: 100%;
+    width: 86%;
     height: 100%;
     object-fit: cover;
   }
