@@ -1,14 +1,14 @@
 .navbar{
-    height:75px;
-    background-color: #008080 ;
+    height: 74px;;
+    background-color: #D6b7b5;
     display: flex;
     justify-content: center;
 }
 
 .navContainer{
-    width: 100%;
+    width: 94%;
     max-width: 1024px;
-    color: white;
+    color: #06334b;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -21,24 +21,35 @@
 
     
 }
+.navbarList {
+    
+    display: flex;
+    gap: 120px;
+    margin-bottom: 50px;
+    
+    
+  }
+  
+  .navbarItem {
+    padding-top:22px ;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
 .navButton{
     margin-left: 20px;
-    border :none;
+    padding-top:15px ;
+    border :2px solid #06334b;
+    border-radius: 8px;
+    width: 80px;
+    height: 30px;
     padding: 5px 10px;
     color:#003580;
     cursor: pointer;
+    transition-duration:.56s;
 }
-.logo img{
- 
-    width: 60px;
-    margin-top: 18px;
-    border-radius: 60%;
-}
-.logo-name{
-    margin-left: -680px;
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 10px;
-    
+.navButton:hover{
+    background-color: #06334b;
+    color:azure;
 }
 

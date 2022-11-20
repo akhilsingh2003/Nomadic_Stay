@@ -1,11 +1,10 @@
 .footer{
-    width: 100%;
-    width: 1024px;
+    width: 94%;
     font-size: 12px;
   }
   
   .fLists{
-    width: 100%;
+    width: 94%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;

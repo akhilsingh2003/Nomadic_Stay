@@ -1,14 +1,33 @@
 .header{
-    background-color: #008080;
+    background-color: #06334b;
     color: white;
     display: flex;
     justify-content: center;
     position: relative;
+    height: 350px;
 }
 .headerContainer{
     width: 100%;
-    max-width: 1024px;
-    margin: 20px 0px 100px 0px;
+  
+    margin: 20px 20px 200px 0px;
+}
+.logo img{
+ 
+  width: 200px;
+  margin-top: 40px;
+  height: 200px;
+  margin-left: 200px;
+  position:absolute;
+  border: none; 
+  border-radius: 8px;
+  
+  
+}
+.headerTitlecontainer{
+  margin-left: 450px;
+  padding-top: 80px;
+  position: relative;
+  
 }
 
 .headerContainer.listMode {
@@ -35,23 +54,28 @@
     margin: 20px 0px;
   }
   .headerBtn {
-    background-color: #0071c2;
-    color: white;
+    background-color:#d4c6bd;
+    color: #3d5361;
     font-weight: 500;
-    border: none;
+    border: 2px solid #d4c6bd;
+    border-radius: 5px;
     padding: 10px;
     cursor: pointer;
+  }
+  .headerBtn:hover{
+    background-color: #06334b;
+    color:#d4c6bd;
   }
 
   .headerSearch {
     height: 30px;
-    background-color: rgb(192, 225, 231);
-    border: 3px solid black;
+    background-color:#f5f0ed;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 10px 0px;
     border-radius: 5px;
+    margin-left: 300px;
     position: absolute;
     bottom: -25px;
     width: 100%;
@@ -74,7 +98,7 @@
   }
 
   .headerSearchText {
-  color: rgb(112, 113, 115);
+  color: #112731;
   cursor: pointer;
 }
 
