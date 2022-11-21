@@ -9,7 +9,7 @@ import Navbar from "../../components/navbar/Navbar";
 //import "D:/mini_project/Nomadic_Stay/nomadic_stay/node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Home = () => {
   return (
-  <div>
+    <div>
     <Navbar/>
     <Header/>
     <div className="homeContainer">
