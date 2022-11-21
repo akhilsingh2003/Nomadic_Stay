@@ -1,6 +1,6 @@
 .mail{
-    width: 100%;
-    margin-top: 50px;
+    width : 93.4%;
+    margin-top: 3.1rem;
     background-color: #008080;
     color: white;
     display: flex;
@@ -27,4 +27,10 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+
+  @media only screen and (max-width: 975px) {
+    .mail{
+      width: 54%;
+    }
   }

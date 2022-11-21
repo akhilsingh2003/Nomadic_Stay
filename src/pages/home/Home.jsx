@@ -1,14 +1,15 @@
 import "./home.css";
 import Featured from "../../components/featured/Featured";
-import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/header/Header";
 import PropertyList from "../../components/propertyList/PropertyList";
 import FeaturedProperties from "../../components/featuredProperties/FeaturedProperties";
 import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
+import Navbar from "../../components/navbar/Navbar";
+//import "D:/mini_project/Nomadic_Stay/nomadic_stay/node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Home = () => {
   return (
-    <div>
+  <div>
     <Navbar/>
     <Header/>
     <div className="homeContainer">
@@ -20,8 +21,9 @@ const Home = () => {
     <MailList/>
     <Footer/>
     </div>
-    </div>
-  )
-}
+   </div> 
+  );
+};
 
 export default Home
+
