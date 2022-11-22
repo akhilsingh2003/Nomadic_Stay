@@ -7,7 +7,13 @@ import {
   faTaxi,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useNavigate } from "react-router-dom";
+
 function Navbar() {
+  const navigate = useNavigate();
+  const handlelogin = () => {
+    navigate("/login");
+  };
   return (
     <div className="navbar">
         <div className="navContainer">
@@ -33,8 +39,8 @@ function Navbar() {
             <span>Airport taxis</span>
           </div>
           <div className="navbarItem">
-                <button className="navButton">Register</button>
-                <button className="navButton">Login</button>
+                <button className="navButton" >Register</button>
+                <button className="navButton" onClick={handlelogin}>Login</button>
           </div> 
         </div>
           

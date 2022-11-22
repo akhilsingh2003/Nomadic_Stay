@@ -54,11 +54,9 @@ const Header = ({ type }) => {
         
         <div className="logo">
             {/* Nomadic Stay */}
-            <img src="./logo.png" alt="logo" className="" />  
+            <img src="./logo.png" alt="logo" className="" />
             </div>
-          
-        {type !== "list" && (
-          <><div className="headerTitlecontainer">
+            <div className="headerTitlecontainer">
             <h1 className="headerTitle">
               Deals to make your journey a lifetime experience !
             </h1>
@@ -66,6 +64,11 @@ const Header = ({ type }) => {
               Get rewarded for your travels – unlock instant savings of 10% or
               more
             </p>
+            </div>
+            
+          
+        {type !== "list" && (
+          <><div className="headerTitlecontainer">
             <button className="headerBtn">Sign in / Register</button>
           </div><div className="headerSearch">
               <div className="headerSearchItem">

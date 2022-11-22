@@ -60,6 +60,7 @@ position: relative;
   font-weight: 500;
   border: 2px solid #d4c6bd;
   border-radius: 5px;
+  margin-left: 10px;
   padding: 12px 20px;
   font-size: 1.1rem;
   cursor: pointer;
@@ -170,8 +171,8 @@ font-size: 16px;
   border: 2px solid #d4c6bd;
   border-radius: 5px;
  width: 100px;
- height: 30px;
-  cursor: pointer; */
+ height: 30px;*/
+  cursor: pointer; 
   background-color:#d4c6bd;
   color: #3d5361;
   padding: 0.6rem 1.8rem;
@@ -188,4 +189,5 @@ font-size: 16px;
   color:#d4c6bd;
   cursor: pointer;
 }
+
 

@@ -6,7 +6,6 @@ import FeaturedProperties from "../../components/featuredProperties/FeaturedProp
 import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
-//import "D:/mini_project/Nomadic_Stay/nomadic_stay/node_modules/bootstrap/dist/css/bootstrap.min.css";
 const Home = () => {
   return (
     <div>
