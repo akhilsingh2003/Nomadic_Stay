@@ -1,6 +1,6 @@
-.mail{
-    width: 100%;
-    margin-top: 50px;
+  .mail{
+    width : 93.4%;
+    margin-top: 3.1rem;
     background-color: #008080;
     color: white;
     display: flex;
@@ -11,20 +11,37 @@
   }
   
   .mailInputContainer>input{
-    width: 300px;
+    width: 400px;
     height: 30px;
-    padding: 10px;
+    padding: 15px;
     border: none;
     margin-right: 10px;
     border-radius: 5px;
+    margin-left: 14px;
   }
   
   .mailInputContainer>button{
-    height: 50px;
+    height: 60px;
+    width:80px;
     background-color: #0071c2;
     color: white;
     font-weight: 500;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+  
+  .mailDesc{
+    margin-right: 3px;
+    padding-right: 50px;
+  }
+  .mailTitle{
+    margin-right: 3px;
+    padding-right: 50px;
+  }
+
+  @media only screen and (max-width: 975px) {
+    .mail{
+      width: 54%;
+    }
   }
