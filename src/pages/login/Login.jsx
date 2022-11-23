@@ -9,8 +9,10 @@ const Login = () => {
             <img src="./logo.png" className="img-logo" alt="logo"/>
             </div>
 
-            <div className="login-f">
-             <form action="" className="login-f"> <br /> <br /> <br /><br /> <br /><br />
+            <div className="login-f"> 
+            <h3 className="h"> Nomadic Stay</h3>
+             <form action="" className="login-f"> 
+             <br /> <br /> 
                 <label className="form text1" >Username</label><br /> <br /> 
                 <input  className="form" type="text" /><br /> <br />
                 <label className="form text1" >Password</label><br /> <br />
