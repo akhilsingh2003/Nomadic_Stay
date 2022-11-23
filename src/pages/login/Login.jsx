@@ -2,21 +2,25 @@ import "./login.css"
 const Login = () => {
    
   return (
-    <div>
+    <div className="container1">
         <div className="container">
-            <div className="login-from">
-             <form action="">
-                <label>Username</label>
-                <input type="text" />
-                <label>Password</label>
-                <input type="password" />
-                <button className="lg-btn">Login</button>
-                <p>Don't have a account</p><button className="R-btn">Register</button>
+            
+            <div className="log-logo">
+            <img src="./logo.png" className="img-logo" alt="logo"/>
+            </div>
+
+            <div className="login-f">
+             <form action="" className="login-f"> <br /> <br /> <br /><br /> <br /><br />
+                <label className="form text1" >Username</label><br /> <br /> 
+                <input  className="form" type="text" /><br /> <br />
+                <label className="form text1" >Password</label><br /> <br />
+                <input className="form"  type="password" /><br /> <br />
+                <button className="lg-btn form">Login</button> <br /> <br /> <br />
+                <p className="form text" >Don't have a account</p> <br /> 
+                <button className="R-btn form"  >Register</button>
              </form>
             </div>
-            <div className="login-logo">
-            <img src="./logo.png" alt="logo"/>
-            </div>
+
         </div>
     </div>
   )
