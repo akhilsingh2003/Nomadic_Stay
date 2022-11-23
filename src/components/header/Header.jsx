@@ -57,9 +57,9 @@ const Header = ({ type }) => {
             <img src="./logo.png" alt="logo" className="" />
             </div>
             <div className="headerTitlecontainer">
-            <h1 className="headerTitle">
+            <p className="headerTitle">
               Deals to make your journey a lifetime experience !
-            </h1>
+            </p>
             <p className="headerDesc">
               Get rewarded for your travels – unlock instant savings of 10% or
               more

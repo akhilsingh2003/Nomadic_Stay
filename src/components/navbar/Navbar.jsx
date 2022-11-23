@@ -18,6 +18,9 @@ function Navbar() {
   const handleContact =() => {
     navigate("/contact");
   }
+  const handleGallery =() => {
+    navigate("/gallery");
+  }
     return (
     <div className="navbar">
         <div className="navContainer">
@@ -40,7 +43,7 @@ function Navbar() {
           </div>
           <div className="navbarItem">
             <FontAwesomeIcon icon={faTaxi} />
-            <span>Airport taxis</span>
+            <span onClick={handleGallery}>Gallery</span>
           </div>
           <div className="navbarItem">
                 <button className="navButton" >Register</button>

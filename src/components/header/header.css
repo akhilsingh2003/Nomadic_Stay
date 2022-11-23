@@ -1,27 +1,30 @@
 .header{
   background-color: #06334b;
-  color: white;
+  background-image: linear-gradient(rgb(0, 0, 0,0.7),rgb(0,0,0,0.5)),url("D:\Nomadic_Stay-1\public\back1.jpg");
+  opacity: 0.9;
   display: flex;
   justify-content: center;
   position: relative;
-  height: 350px;
+  height: 700px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 150px 0 rgba(0, 0, 0, 0.19);
 }
 .headerContainer{
   width: 92%;
-
   margin: 20px 20px 200px 0px;
 }
 .logo img{
-
-width: 200px;
-margin-top: 40px;
-height: 200px;
+width: 150px;
+margin-top: 180px;
+height: 150px;
 margin-left: 200px;
 position:absolute;
 border: none; 
 border-radius: 8px;
-
-
+}
+.headerTitle {
+  font-size: 70px;
+  color: aliceblue;
+  margin-top: 90px;
 }
 .headerTitlecontainer{
 margin-left: 450px;
@@ -53,10 +56,11 @@ position: relative;
 
 .headerDesc {
   margin: 20px 0px;
+  color: aliceblue;
 }
 .headerBtn {
   background-color:#d4c6bd;
-  color: #3d5361;
+  color: black;
   font-weight: 500;
   border: 2px solid #d4c6bd;
   border-radius: 5px;
@@ -67,7 +71,7 @@ position: relative;
   transition: all .4s ease;
 }
 .headerBtn:hover{
-  background-color: #06334b;
+  background-color: black;
   color:#d4c6bd;
 }
 
