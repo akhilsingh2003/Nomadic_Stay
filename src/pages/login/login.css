@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 .container1 {
     background-color: #FFDDD2;
     padding-top: 25px;
@@ -8,10 +9,12 @@
       background-color: #e0d2c7;
       margin-left:300px;
       border: 2px solid #06334b;
+      border-radius: 7px;
       gap: 10px;
       height: 600px;
       width: 1000px;
       margin-top: 60px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
   
   }
@@ -71,4 +74,11 @@
 }
 .text1 {
     margin-left: 85px;
+}
+.h {
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: 'Sacramento', cursive;
+    font-size: xx-large;
+    color: #06334b;
 }

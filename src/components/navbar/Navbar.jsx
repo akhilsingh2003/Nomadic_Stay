@@ -5,6 +5,7 @@ import {
   faCar,
   faPlane,
   faTaxi,
+  faUser
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useNavigate } from "react-router-dom";
@@ -14,13 +15,16 @@ function Navbar() {
   const handlelogin = () => {
     navigate("/login");
   };
-  return (
+  const handleContact =() => {
+    navigate("/contact");
+  }
+    return (
     <div className="navbar">
         <div className="navContainer">
         <div className="navbarList">
           <div className="navbarItem active">
-            <FontAwesomeIcon icon={faBed} />
-            <span>Stays</span>
+            <FontAwesomeIcon icon={faUser} />
+            <span onClick={handleContact}>Contact Us </span>
           </div>
           <div className="navbarItem">
             <FontAwesomeIcon icon={faPlane} />
