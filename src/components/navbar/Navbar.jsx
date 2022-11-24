@@ -3,8 +3,8 @@ import "./navbar.css"
 import {
   faBed,
   faCar,
+  faPhotoFilm,
   faPlane,
-  faTaxi,
   faUser
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -42,7 +42,7 @@ function Navbar() {
             <span>Attractions</span>
           </div>
           <div className="navbarItem">
-            <FontAwesomeIcon icon={faTaxi} />
+            <FontAwesomeIcon icon={faPhotoFilm} />
             <span onClick={handleGallery}>Gallery</span>
           </div>
           <div className="navbarItem">
