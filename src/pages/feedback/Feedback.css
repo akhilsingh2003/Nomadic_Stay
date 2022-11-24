@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&display=swap');
+.containerr1 {
+
+    background-color: #FFDDD2;
+    padding-top: 25px;
+    padding-bottom: 100px;
+  }
+  .containerr {
+      display: flex;
+      background-color: #e0d2c7;
+      margin-left:300px;
+      border: 2px solid #06334b;
+      border-radius: 7px;
+      gap: 10px;
+      height: 600px;
+      width: 1000px;
+      margin-top: 60px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .img-feedback {
+    width: 450px;
+    height: 603px;
+}
+.f-user{
+    color: #06334b;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+.feed-head {
+    margin-top: 40px;
+    margin-left: 170px;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: xx-large;
+    font-weight:bolder ;
+    color: #06334b;
+    height: 70px;
+}
+.feed-f{
+    margin-top: 42px;
+    margin-left: -249px;
+}
+.submit-btn{
+    width: 120px;
+    height: 33px;
+    border-radius: 4px;
+    margin-left: 85px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.submit-btn:hover {
+    background-color: #06334b;
+    color:azure;
+}
+.ff-text1{
+    margin-left:98px;
+    color: #06334b;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+.f-type{
+    width: 280px;
+    height: 60px;
+
+}
+.ff-text2{
+    margin-left:98px;
+    color: #06334b;
+    font-weight: bolder;
+    font-size: x-large;
+
+}
+
+
