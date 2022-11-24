@@ -2,7 +2,7 @@ import {
   faBed,
   faCalendarDays,
   faPerson,
-} from "@fortawesome/free-solid-svg-icons";
+} from "@fortawesome/free-solid-svg-icons"; 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./header.css";
 import { DateRange } from "react-date-range";
@@ -11,6 +11,8 @@ import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { format } from "date-fns";
 import { useNavigate } from "react-router-dom";
+
+
 
 const Header = ({ type }) => {
   const [destination, setDestination] = useState("");
@@ -57,9 +59,9 @@ const Header = ({ type }) => {
             <img src="./logo.png" alt="logo" className="" />
             </div>
             <div className="headerTitlecontainer">
-            <h1 className="headerTitle">
+            <p className="headerTitle">
               Deals to make your journey a lifetime experience !
-            </h1>
+            </p>
             <p className="headerDesc">
               Get rewarded for your travels – unlock instant savings of 10% or
               more

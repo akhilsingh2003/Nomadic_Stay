@@ -1,4 +1,4 @@
-import { faFileExport } from "@fortawesome/free-solid-svg-icons"
+import { faFileExport } from "@fortawesome/free-solid-svg-icons";
 import "./Feedback.css"
 
 const Feedback =() =>{

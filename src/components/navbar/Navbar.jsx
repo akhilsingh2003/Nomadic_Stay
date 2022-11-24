@@ -3,9 +3,11 @@ import "./navbar.css"
 import {
   faBed,
   faCar,
+  faPhotoFilm,
   faPlane,
-  faTaxi,
   faUser
+  faUser,
+  faPhotoFilm
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useNavigate } from "react-router-dom";
@@ -26,6 +28,13 @@ function Navbar() {
     navigate("/about");
   }
 
+  const handleGallery =() => {
+    navigate("/gallery");
+  }
+  
+  const handleregistration =() => {
+    navigate("./registration");
+  }
     return (
     <div className="navbar">
         <div className="navContainer">
@@ -44,16 +53,11 @@ function Navbar() {
           <span onClick={handleAbout}>About Us</span>
           </div>
           <div className="navbarItem">
-            <FontAwesomeIcon icon={faCar} />
-            <span>Car rentals</span>
-          </div>
-         
-          <div className="navbarItem">
-            <FontAwesomeIcon icon={faTaxi} />
-            <span>Airport taxis</span>
+            <FontAwesomeIcon icon={faPhotoFilm} />
+            <span onClick={handleGallery}>Gallery</span>
           </div>
           <div className="navbarItem">
-                <button className="navButton" >Register</button>
+                <button className="navButton" onClick={handleregistration}>Register</button>
                 <button className="navButton" onClick={handlelogin}>Login</button>
           </div> 
         </div>
