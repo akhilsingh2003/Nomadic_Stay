@@ -10,6 +10,7 @@ import Login from "./pages/login/Login";
 import Contact from "./pages/contact/Contact";
 import Feedback from "./pages/feedback/Feedback";
 import Gallery from "./pages/gallery/Gallery";
+import Registration from "./pages/registration/Registration";
 function App () {
   return (
     <BrowserRouter>
@@ -19,12 +20,10 @@ function App () {
         <Route path="/hotels/:id" element={<Hotel/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/contact" element={<Contact/>}></Route>
-
         <Route path="/feedback" element={<Feedback/>}></Route>
-
-
         <Route path="/gallery" element={<Gallery/>}></Route>
-
+        <Route path="/registration" element={<Registration/>}></Route>
+        
 
       </Routes>
     </BrowserRouter>
