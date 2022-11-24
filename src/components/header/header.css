@@ -1,6 +1,6 @@
 .header{
   background-color: #06334b;
-  background-image: linear-gradient(rgb(0, 0, 0,0.7),rgb(0,0,0,0.5)),url("D:\Nomadic_Stay-1\public\back1.jpg");
+  background-image: linear-gradient(rgb(0, 0, 0,0.7),rgb(0,0,0,0.5)),url("/public/back1.jpg");
   opacity: 0.9;
   display: flex;
   justify-content: center;
