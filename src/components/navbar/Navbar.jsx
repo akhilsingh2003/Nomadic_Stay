@@ -1,13 +1,9 @@
 
 import "./navbar.css"
 import {
-  faBed,
-  faCar,
   faPhotoFilm,
-  faPlane,
-  faUser
   faUser,
-  faPhotoFilm
+  faPlane
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useNavigate } from "react-router-dom";
