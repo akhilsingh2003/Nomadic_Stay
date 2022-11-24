@@ -3,7 +3,9 @@ import "./navbar.css"
 import {
   faBed,
   faCar,
+  faPhotoFilm,
   faPlane,
+  faUser
   faUser,
   faPhotoFilm
 } from "@fortawesome/free-solid-svg-icons";
