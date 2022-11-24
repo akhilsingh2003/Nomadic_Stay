@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-.container1 {
+.container11 {
     background-color: #FFDDD2;
-    background-image: url("/public/login-back.jpg");
-    background-size: 1600px 800px;;
+    background-image: url("/public/reg-back.jpg");
+    background-size: 1800px 900px;
     padding-top: 25px;
     padding-bottom: 60px;
   }
-  .container {
+  .container12 {
       display: flex;
       background-color: #e0d2c7;
       margin-left:300px;
@@ -20,30 +20,30 @@
   
   
   }
-  .log-logo {
+  .reg-logo {
       width: 530px;
       background-color: #06334b;
    
   }
-  .img-logo
+  .img-re-logo
    {
       width: 400px;
       margin-top: 100px;
       margin-left: 60px;
       border-radius: 8px;
   }
-  .login-f {
+  .login-r {
     margin-top: 20px;
     border-radius: 12px;
   
     margin-left: 40px;
 }
-.form {
+.reg {
     color: #06334b;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: larger;
 }
-.R-btn {
+.reg-btn {
     width: 100px;
     height: 33px;
     border-radius: 4px;
@@ -53,31 +53,19 @@
     transition: all .3s ease;
 }
 
-.R-btn:hover {
+.reg-btn:hover {
     background-color: #06334b;
     color:azure;
 }
-.lg-btn {
-    width: 100px;
-    height: 33px;
-    border-radius: 4px;
-    margin-left: 87px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: all .3s ease;
-}
-
-.lg-btn:hover {
-    background-color: #06334b;
-    color:azure;
-}
-.text {
+.reg {
     margin-left: 25px;
+    
 }
-.text1 {
-    margin-left: 85px;
+.reg1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
 }
-.h {
+.recon {
     margin-top: 40px;
     margin-left: 100px;
     font-family: 'Sacramento', cursive;

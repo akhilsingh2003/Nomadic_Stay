@@ -26,7 +26,10 @@ function Navbar() {
   const handleGallery =() => {
     navigate("/gallery");
   }
-
+  
+  const handleregistration =() => {
+    navigate("./registration");
+  }
     return (
     <div className="navbar">
         <div className="navContainer">
@@ -45,16 +48,11 @@ function Navbar() {
             <span>Flights</span>
           </div>
           <div className="navbarItem">
-            <FontAwesomeIcon icon={faCar} />
-            <span>Car rentals</span>
-          </div>
-         
-          <div className="navbarItem">
             <FontAwesomeIcon icon={faPhotoFilm} />
             <span onClick={handleGallery}>Gallery</span>
           </div>
           <div className="navbarItem">
-                <button className="navButton" >Register</button>
+                <button className="navButton" onClick={handleregistration}>Register</button>
                 <button className="navButton" onClick={handlelogin}>Login</button>
           </div> 
         </div>

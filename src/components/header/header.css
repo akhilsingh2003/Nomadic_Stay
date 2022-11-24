@@ -29,7 +29,6 @@ border-radius: 8px;
 .headerTitlecontainer{
 margin-left: 450px;
 padding-top: 54px;
-
 position: relative;
 
 }
@@ -71,7 +70,7 @@ position: relative;
   transition: all .4s ease;
 }
 .headerBtn:hover{
-  background-color: black;
+  background-color: #06334b;
   color:#d4c6bd;
 }
 
@@ -127,11 +126,11 @@ font-size: 16px;
 .date {
   position: absolute;
   top: 50px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .options {
-  z-index: 2;
+  z-index: 3;
   font-size: 1.2rem;
   position: absolute;
   top: 50px;
