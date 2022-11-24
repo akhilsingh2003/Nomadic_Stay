@@ -9,6 +9,8 @@ import Hotel from "./pages/hotel/Hotel";
 import Login from "./pages/login/Login";
 import Contact from "./pages/contact/Contact";
 import Feedback from "./pages/feedback/Feedback";
+import About from"./pages/about/About";
+
 function App () {
   return (
     <BrowserRouter>
@@ -19,6 +21,7 @@ function App () {
         <Route path="/login" element={<Login/>}/>
         <Route path="/contact" element={<Contact/>}></Route>
         <Route path="/feedback" element={<Feedback/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
 
 
       </Routes>
