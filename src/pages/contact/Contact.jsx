@@ -13,6 +13,7 @@ import {
 const Contact = () => {
   return (
    <div className='container3'>
+  
     <div className='container4'>
         <div >
         <img src="./contact.jpg" className="img-contact" alt="Contact Us"/>
