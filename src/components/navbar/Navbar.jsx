@@ -4,8 +4,8 @@ import {
   faBed,
   faCar,
   faPlane,
-  faTaxi,
-  faUser
+  faUser,
+  faPhotoFilm
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useNavigate } from "react-router-dom";
@@ -42,7 +42,7 @@ function Navbar() {
             <span>Attractions</span>
           </div>
           <div className="navbarItem">
-            <FontAwesomeIcon icon={faTaxi} />
+            <FontAwesomeIcon icon={faPhotoFilm} />
             <span onClick={handleGallery}>Gallery</span>
           </div>
           <div className="navbarItem">
