@@ -2,6 +2,8 @@
     width : 93.4%;
     margin-top: 3.1rem;
     background-color: #06334b;
+    background-image: url('/public/back2.jpg');
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 150px 0 rgba(0, 0, 0, 0.19);
     color: white;
     display: flex;
     flex-direction: column;

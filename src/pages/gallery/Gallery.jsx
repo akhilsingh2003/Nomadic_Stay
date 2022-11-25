@@ -80,7 +80,12 @@ function Gallery() {
         )}
         <div className="hotelImages">
             {photos.map((photo, i) => (
+              
               <div className="hotelImgWrapper" key={i}>
+                <div>
+                  <div className="gal-text1"></div>
+                  <div className="gal-text2"></div>
+                </div>
                 <img
                   onClick={() => handleOpen(i)}
                   src={photo.src}

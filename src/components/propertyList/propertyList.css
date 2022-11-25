@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&display=swap');
+
 .pList{
     width: 92%;
     /* max-width: 1024px; */
@@ -13,6 +15,8 @@
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
+    
+
   }
   
   .pListImg{
@@ -25,10 +29,12 @@
     font-size: 18px;
     color: #444;
     margin-top: 8px;
+    font-family: 'Frank Ruhl Libre', serif;
   }
   
   .pListTitles>h2{
     font-size: 14px;
     font-weight: 300;
     margin-top: 4px;
+    font-family: 'Frank Ruhl Libre', serif;
   }
