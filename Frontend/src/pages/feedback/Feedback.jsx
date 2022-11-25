@@ -3,10 +3,17 @@ import Navbar from "../../components/navbar/Navbar";
 import "./Feedback.css"
 
 const Feedback =() =>{
+<<<<<<< HEAD:Frontend/src/pages/feedback/Feedback.jsx
     return (
         <div>
         <Navbar/>
         <div className="containerr1">
+=======
+    return ( 
+        <div>  
+            <Navbar/>
+              <div className="containerr1">
+>>>>>>> 964ba36baa1e2fb62d8645f6e5532260e519ed48:src/pages/feedback/Feedback.jsx
              <div className="containerr">
              <div >
                 <img src="./feedback.jpg" className="img-feedback" alt="Feedback "/>
@@ -25,7 +32,11 @@ const Feedback =() =>{
         </div>
         </div>
         </div>
+<<<<<<< HEAD:Frontend/src/pages/feedback/Feedback.jsx
        
+=======
+
+>>>>>>> 964ba36baa1e2fb62d8645f6e5532260e519ed48:src/pages/feedback/Feedback.jsx
     )
 }
 export default Feedback

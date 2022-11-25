@@ -76,7 +76,7 @@ const Header = ({ type }) => {
             </div>
             
           
-        {type !== "list" && (
+        {type != "list" && (
           <><div className="headerTitlecontainer">
           </div><div className="headerSearch">
               <div className="headerSearchItem">
