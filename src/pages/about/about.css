@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&display=swap');
+
+.about_background{
+    background-color:#FFF7E9;
+}
+.img-about{
+    margin: 0;
+    height: 500px;
+    width: 100%;
+    margin-bottom: 0;
+    
+    background-size: cover;
+    }
+    .about-head{
+        margin-top:-100px;
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 70px;
+        font-weight:bolder ;
+        color:white;
+        margin-left: 37%;
+        text-shadow: 2px 2px 4px #000000;
+    }
+    .logo-about{
+        
+        height: 300px;
+        width:  300px;
+        margin-left: 130px;
+        border-radius: 15px;
+        box-shadow: #000000 2px 2px 4px;
+        
+    }
+    .box{
+        height: 243px;
+        width: 900px;
+        font-family: 'Frank Ruhl Libre', serif;
+        font-weight: bolder;
+        font-size: 30px;
+        padding: 30px;
+        background-color: rgb(218, 215, 215);
+        border-radius: 15px;
+        box-shadow: #000000 2px 2px 4px;
+        
+      
+    }
+    .container10{
+        display: flex;
+        padding-top: 30px;
+        gap: 20px;
+        
+    }
+    .services_about{
+        height: 455x;
+        width: 300px;
+        margin-left: 130px;
+        margin-top: 70px;
+        border-radius: 15px;
+        box-shadow: #000000 2px 2px 4px;
+        
+    }
+    .box2{
+        height: 400px;
+        width: 900px;
+        font-family: 'Frank Ruhl Libre', serif;
+        font-weight: bolder;
+        font-size: 30px;
+        padding: 30px;
+        background-color: rgb(218, 215, 215);
+        border-radius: 15px;
+        margin-top: 70px;
+        box-shadow: #000000 2px 2px 4px;
+        
+        
+        
+
+    }
+    .container12{
+        display: flex;
+        gap: 15px;
+    }
+    .services_head{
+        font-family: 'Frank Ruhl Libre', serif;
+        margin-left: 37%;
+        margin-top: 40px;
+        font-size: 60px;
+        text-shadow: 2px 2px 2px #000000;
+
+    }

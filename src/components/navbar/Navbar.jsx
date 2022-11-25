@@ -20,6 +20,9 @@ function Navbar() {
   const handleFeedback =() => {
     navigate("/feedback");
   }
+  const handleAbout =() => {
+    navigate("/about");
+  }
 
   const handleGallery =() => {
     navigate("/gallery");
@@ -41,9 +44,9 @@ function Navbar() {
             <span onClick={handleFeedback}>Feedback</span>
           </div>
 
-          <div className="navbarItem">
-            <FontAwesomeIcon icon={faPlane} />
-            <span>Flights</span>
+          <div className="navbarItem active">
+          <FontAwesomeIcon icon="fa-sharp fa-solid fa-circle-question" /> 
+          <span onClick={handleAbout}>About Us</span>
           </div>
           <div className="navbarItem">
             <FontAwesomeIcon icon={faPhotoFilm} />
