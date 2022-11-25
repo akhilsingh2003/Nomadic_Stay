@@ -4,6 +4,7 @@ import {
   faPhotoFilm,
   faUser,
   faPlane
+
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useNavigate } from "react-router-dom";
@@ -45,7 +46,7 @@ function Navbar() {
           </div>
 
           <div className="navbarItem active">
-          <FontAwesomeIcon icon="fa-sharp fa-solid fa-circle-question" /> 
+          <FontAwesomeIcon icon={faUser} /> 
           <span onClick={handleAbout}>About Us</span>
           </div>
           <div className="navbarItem">
