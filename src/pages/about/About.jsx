@@ -1,4 +1,4 @@
-import { Container } from "@mui/system"
+
 import "./about.css"
 const About = () =>{
     return (
