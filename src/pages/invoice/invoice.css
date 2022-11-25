@@ -1,0 +1,46 @@
+.invoice-con1 {
+    background-color: #e0d2c7;
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 57px;
+    background-image: url('/public/cong2.jpg');
+    
+}
+.invoice-con2 {
+    background-color: #06334b;
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    margin-left: 280px;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.8;
+}
+.invoice-msg {
+position: relative;
+}
+.invoice-img {
+    width: 200px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.invoice-p {
+height: 270px;
+margin-top: 400px;
+margin-left: 550px;
+color: aliceblue;
+font-size: xx-large;
+text-align: center;
+}
+.invoice-btn {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #06334b;
+    border-radius: 15px;   
+}
+.invoice-btn:hover{
+    background-color: #06334b;
+    opacity: 0.8;
+}

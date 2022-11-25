@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&display=swap');
 
+
 .about_background{
     background-color:#FFF7E9;
 }
@@ -13,12 +14,12 @@
     background-size: cover;
     }
     .about-head{
-        margin-top:-100px;
-        font-family: 'Frank Ruhl Libre', serif;
-        font-size: 70px;
+        margin-top:-290px;
+        font-family: "Gabriola";
+        font-size: 80px;
         font-weight:bolder ;
         color:white;
-        margin-left: 37%;
+        margin-left: 40%;
         text-shadow: 2px 2px 4px #000000;
     }
     .logo-about{
@@ -31,9 +32,10 @@
         
     }
     .box{
+        
         height: 243px;
         width: 900px;
-        font-family: 'Frank Ruhl Libre', serif;
+        font-family: "Gabriola";
         font-weight: bolder;
         font-size: 30px;
         padding: 30px;
@@ -46,6 +48,7 @@
     .container10{
         display: flex;
         padding-top: 30px;
+        margin-top: 180px;
         gap: 20px;
         
     }
@@ -59,9 +62,9 @@
         
     }
     .box2{
-        height: 400px;
+        height: 415px;
         width: 900px;
-        font-family: 'Frank Ruhl Libre', serif;
+        font-family: "Gabriola";
         font-weight: bolder;
         font-size: 30px;
         padding: 30px;
@@ -74,15 +77,16 @@
         
 
     }
-    .container12{
+    .con2{
         display: flex;
         gap: 15px;
     }
     .services_head{
-        font-family: 'Frank Ruhl Libre', serif;
-        margin-left: 37%;
+        
+        margin-left: 40%;
         margin-top: 40px;
         font-size: 60px;
         text-shadow: 2px 2px 2px #000000;
+        font-family: "Gabriola";
 
     }

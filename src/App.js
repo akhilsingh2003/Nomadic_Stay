@@ -10,9 +10,11 @@ import Login from "./pages/login/Login";
 import Contact from "./pages/contact/Contact";
 import Feedback from "./pages/feedback/Feedback";
 import About from"./pages/about/About";
-
 import Gallery from "./pages/gallery/Gallery";
 import Registration from "./pages/registration/Registration";
+import Invoice from "./pages/invoice/Invoice";
+
+
 function App () {
   return (
     <BrowserRouter>
@@ -26,8 +28,7 @@ function App () {
         <Route path="/about" element={<About/>}></Route>
         <Route path="/gallery" element={<Gallery/>}></Route>
         <Route path="/registration" element={<Registration/>}></Route>
-        
-
+        <Route path="/invoice" element={<Invoice/>}></Route>
       </Routes>
     </BrowserRouter>
   );
