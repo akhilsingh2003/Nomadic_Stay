@@ -1,5 +1,7 @@
-import { Container } from "@mui/system"
+
 import "./about.css"
+
+
 const About = () =>{
     return (
        <div className="about_background"> 
@@ -25,9 +27,9 @@ const About = () =>{
 
             </div>
             <h1 className="services_head">OUR SERVICES</h1>
-            <div className="container11">
+            <div className="con1">
             
-            <div className="container12">
+            <div className="con2">
             <img src="./service_about1.jpg" className="services_about" alt="our services"/>
                 <div className="box2">
                     Our website provides various services like:
