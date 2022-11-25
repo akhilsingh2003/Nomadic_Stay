@@ -1,8 +1,6 @@
-
 import "./about.css"
-
 import Navbar from "../../components/navbar/Navbar";
-
+import Footer from "../../components/footer/Footer";
 const About = () =>{
     return (
      <div className="con1_about">
@@ -10,7 +8,7 @@ const About = () =>{
          <div className="about_text1">ABOUT US</div>
          <hr className="line"/>
         <div className="con2_about">
-            
+  
             <img src="./about_img2.jpg" className="img_about" alt="About us"/>
             <div className="about_text2">
             "Nomadic Stay" is an Online hotel booking website to manage room booking in the hotel.
@@ -21,8 +19,6 @@ const About = () =>{
                 <br className="heart" />🖤🖤
 
             </div>
-        
-
 
         </div>
         <div className="service_text1">SERVICES</div>
@@ -39,15 +35,13 @@ const About = () =>{
                 <br className="heart" />🖤🖤
 
             </div>
-        
+        </div>        
+       
+       </div>
+     {/* <Footer/> */}
 
-
-        </div>
-        
      </div>
-          
-        
-        
+   
     )
 }
 export default About
