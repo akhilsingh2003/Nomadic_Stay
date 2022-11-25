@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&display=swap');
+.container3{
+    background-color: #e0d2c7;
+    padding-top: 25px;
+    padding-bottom: 66px;
+}
+.container4 {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 6px;
+    border: 2px solid #06334b;
+    background-color: #f5f3ef;
+    width: 1100px;
+    height: 603px;
+    gap: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-contact {
+    width: 450px;
+    height: 603px;
+}
+.con-spam {
+    font-size: xxx-large;
+    margin-top: -50px;
+    color: #06334b;
+    height: 60px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.container5 {
+    display: flex;
+    margin-top: 70px; 
+    height: 400px;
+    margin-left: 60px;
+}
+.con-text {
+    font-size: larger;
+    color: #06334b;
+    margin-left: 52px;
+    font-family: 'Frank Ruhl Libre', serif;
+
+}
+.con-btn {
+    margin-left: 35px;
+    width: 100px;
+    height: 33px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.con-btn:hover {
+    background-color: #06334b;
+    color:azure;
+}
+.con-text1{
+    margin-left: 70px;
+    margin-top: 40px;
+    text-align: center;
+    margin-right: 10px;
+    font-family: "Gabriola";
+    font-size: larger;
+    color: #06334b;
+    font-weight: bolder;
+    opacity: 0.7;
+    position: relative;
+}
+.con-time {
+    font-family: "Gabriola";
+}
+.img-wel {
+    width: 150px;
+    height: 150px;
+    position:absolute;
+}
