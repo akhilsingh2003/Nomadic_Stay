@@ -1,7 +1,17 @@
 import React from 'react'
 import "./invoice.css";
+import { useNavigate } from "react-router-dom";
+
+
+
+
 function Invoice() {
-  return (
+    const navigate = useNavigate();
+  const handledone = () => {
+    navigate("/");
+  }
+    return (
+
     <div>
       <div className='invoice-con1'>
 
@@ -15,7 +25,7 @@ function Invoice() {
                       Congratulations on your Booking  🖤🖤
 
                     <br /> <br />
-                    <button className='invoice-btn'>
+                    <button className='invoice-btn' onClick={handledone}>
                     Continue
                     </button>
                 </p>

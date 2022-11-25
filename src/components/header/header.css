@@ -88,19 +88,12 @@ position: relative;
   position: absolute;
   bottom: 250px;
   left: 250px;
-  /* width: 100%; */
   width: 1080px;
   padding: 12px 20px;
   border-radius: 50px;
-  opacity: 0.6;
+  opacity: 0.8;
   font-weight: bold;
-  /* padding: 10px 0px;
-  border-radius: 5px;
-  margin-left: 300px;
-  position: absolute;
-  bottom: -25px;
-  width: 100%;
-  max-width: 1024px; */
+
 }  
 
 .headerIcon {
