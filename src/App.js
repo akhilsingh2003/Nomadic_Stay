@@ -9,12 +9,11 @@ import Hotel from "./pages/hotel/Hotel";
 import Login from "./pages/login/Login";
 import Contact from "./pages/contact/Contact";
 import Feedback from "./pages/feedback/Feedback";
-
 import About from"./pages/about/About";
-
-
 import Gallery from "./pages/gallery/Gallery";
 import Registration from "./pages/registration/Registration";
+import Invoice from "./pages/invoice/Invoice";
+
 
 function App () {
   return (
@@ -26,15 +25,10 @@ function App () {
         <Route path="/login" element={<Login/>}/>
         <Route path="/contact" element={<Contact/>}></Route>
         <Route path="/feedback" element={<Feedback/>}></Route>
-
         <Route path="/about" element={<About/>}></Route>
-
-
         <Route path="/gallery" element={<Gallery/>}></Route>
         <Route path="/registration" element={<Registration/>}></Route>
-        
-
-
+        <Route path="/invoice" element={<Invoice/>}></Route>
       </Routes>
     </BrowserRouter>
   );

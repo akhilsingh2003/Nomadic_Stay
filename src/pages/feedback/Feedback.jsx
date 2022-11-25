@@ -1,9 +1,12 @@
 import { faFileExport } from "@fortawesome/free-solid-svg-icons";
+import Navbar from "../../components/navbar/Navbar";
 import "./Feedback.css"
 
 const Feedback =() =>{
-    return (
-        <div className="containerr1">
+    return ( 
+        <div>  
+            <Navbar/>
+              <div className="containerr1">
              <div className="containerr">
              <div >
                 <img src="./feedback.jpg" className="img-feedback" alt="Feedback "/>
@@ -21,7 +24,8 @@ const Feedback =() =>{
              </form>
         </div>
         </div>
-       
+        </div>
+
     )
 }
 export default Feedback

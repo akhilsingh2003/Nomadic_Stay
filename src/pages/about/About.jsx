@@ -1,6 +1,6 @@
 
 import "./about.css"
-
+import Footer from "../../components/footer/Footer";
 
 const About = () =>{
     return (
@@ -46,7 +46,9 @@ const About = () =>{
             
        
        </div>
+     {/* <Footer/> */}
      </div>
+     
           
         
         
